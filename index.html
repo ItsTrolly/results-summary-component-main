@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="wraper">
+      <div class="left-side">
+        <h1>Your Result</h1>
+        <div class="result-bubble">
+          <div class="average-score" id="averageScore">
+          </div>
+          <div class="max-score">
+            of 100
+          </div>
+        </div>
+        <div class="great">
+          Great 
+        </div>
+        <div class="user-average">
+          <p>
+              You scored higher than 65% of the other people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="right-side">
+        <h2>Summary</h2>
+        <div class="summary-score">
+          <div class="reaction">
+            <div class="ilustartion">
+              <img src="assets/images/icon-reaction.svg" alt="">
+            </div>
+            <div class="reaction-category" id="reaction">
+              placeholder
+            </div>
+            <div class="score" id="reactScore">
+
+            </div>
+          </div>
+          <div class="memory">
+            <div class="ilustartion">
+              <img src="assets/images/icon-memory.svg" alt="">
+            </div>
+            <div class="memory-category" id="memory">
+              placeholder
+            </div>
+            <div class="score" id="memoryScore">
+            </div>
+          </div>
+          <div class="verbal">
+            <div class="ilustartion">
+              <img src="assets/images/icon-verbal.svg" alt="">
+            </div>
+            <div class="verbal-category" id="verbal">
+              placeholder
+            </div>
+            <div class="score" id="verbalScore">
+
+            </div>
+          </div>
+          <div class="visual">
+            <div class="ilustartion">
+              <img src="assets/images/icon-visual.svg" alt="">
+            </div>
+            <div class="visual-category" id="visual">
+              placeholder
+            </div>
+            <div class="score" id="visualScore">
+            </div>
+          </div>
+        </div>
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">ItsTrolly</a>.
+    </div>
+  </footer>
+</body>
+<script type="module" src="app.js"></script>
+</html>
